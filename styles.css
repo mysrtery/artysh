@@ -80,6 +80,7 @@ body{
         cursor: pointer;
         }
 #openModal{
+    border-radius: 5px;
     font-size: 18px;
     position: absolute;
     bottom:  90%;
@@ -146,4 +147,28 @@ input:focus {
     color: #111010;
     width: 50%;
     margin: 0 auto;
+}
+@media (max-width: 576px){
+    #openModal{
+        padding: 17px;
+        bottom: 88%;
+    }
+}
+@media (max-width: 768px){
+    #openModal{
+        padding: 17px;
+        bottom: 85%;
+    }
+}
+@media (max-width: 280px){
+    #openModal{
+        padding: 17px;
+        bottom: 80%;
+    }
+}
+@media (max-width: 412px){
+    #openModal{
+        padding: 17px;
+        bottom: 84%;
+    }
 }
